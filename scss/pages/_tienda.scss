@@ -1,0 +1,8 @@
+@import "./utils/variables";
+
+.tienda{
+    margin-left: 20px;
+    &__texto{
+        font-size: $parrafo-l;
+    }
+}

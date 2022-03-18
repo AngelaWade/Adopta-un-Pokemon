@@ -1,0 +1,38 @@
+@import "./utils/variables";
+
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__texto{
+        margin-top: 35px;
+        font-weight: lighter;
+        width: 60%;
+        text-align: justify;
+        font-size: $parrafo-m;
+    }
+
+    &__foto{
+        margin-top: 25px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.medio{
+    padding-top: 220px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.card-img-top{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.card-text{
+    padding: 20px;
+}
+

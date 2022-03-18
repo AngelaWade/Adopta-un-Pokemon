@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right top, #404040, #565656, #6d6c6d, #858485, #9e9c9d, #aeacad, #bfbdbd, #d0cece, #dbdada, #e7e6e7, #f3f3f3, #ffffff);
+   margin: 0%;
+}
+
+h1{
+    color:black;
+
+    margin: 150px 0 0 20px;
+    font-size: 60px;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+
+
+h2{
+    color:black;
+    margin: 100px 0 50px 20px;
+    font-size: 45px;
+    font-family: 'roboto';
+    font-weight: bolder;
+}
+
+h3{
+    font-family: 'roboto';
+}
+
+h4{
+    font-style:oblique;
+    color: white;
+}
+
+p{
+    color: black;
+    font-family: 'roboto';
+    font-weight: lighter;
+}
+
+/*COLORES*/
+$fondo: rgb(39, 39, 39);
+
+
+/*LETRAS*/
+$parrafo-s: 15px;   
+$parrafo-m: 20px;
+$parrafo-l: 25px;
+
+/*MIXIN*/
+@mixin medida ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
